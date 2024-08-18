@@ -1,0 +1,6 @@
+#Leptop
+#Sun Aug 18 16:10:27 BDT 2024
+Brand=Asus
+Model=Zenbook 14
+OS=Windows 11
+Processor=Raizen7
