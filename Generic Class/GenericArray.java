@@ -2,8 +2,8 @@
 class MyArray<T>{
     T A[] = (T[]) new Object[10];
     int length = 0;
-    public void append(T v){
-        A[length++] = v;
+    public void append(String string){
+        A[length++] = string;
     }
 
     public void display(){
@@ -11,6 +11,11 @@ class MyArray<T>{
             System.out.print(A[i]+" ");
         }
         System.out.println();
+    }
+
+    public void append(int i) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'append'");
     }
 }
 
